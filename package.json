@@ -1,0 +1,23 @@
+{
+  "name": "poc-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heineiuo/poc-worker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heineiuo/poc-worker/issues"
+  },
+  "homepage": "https://github.com/heineiuo/poc-worker#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
