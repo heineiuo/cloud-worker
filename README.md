@@ -1,14 +1,12 @@
-# Worker
+# Cloud Worker
 
-A simple proof of concept about using worker as a cloud function runtime.
+A simple proof of concept about using [Worker](https://developer.mozilla.org/en-US/docs/Web/API/Worker) as a cloud function runtime.
 
 
-## Useage
+## Get Started
 
-```
-node main
-```
+Run `npm install` and then `node main/index.js`.
 
-open browser with `http://localhost:8080` and see:
+Open browser with `http://localhost:8080` and see:
 
-| hello world
+> hello world
