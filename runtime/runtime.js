@@ -33,10 +33,6 @@ const target = new EventTarget();
 globalThis.addEventListener = (...args) => target.addEventListener(...args);
 globalThis.dispatchEvent = (...args) => target.dispatchEvent(...args);
 
-globalThis.addEventListener("response", (res) => {
-  parentPort.postMessage(res);
-});
-
 globalThis.Response = Response;
 
 globalThis.eval(fs.readFileSync(workerData.__filename, "utf-8"));
