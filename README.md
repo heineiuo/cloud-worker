@@ -10,3 +10,11 @@ Run `npm install` and then `node main/index.js`.
 Open browser with `http://localhost:8080` and see:
 
 > hello world
+
+
+## API
+```js
+addEventListener("fetch", (event) => {
+  event.respondWith(new Response("hello world"));
+});
+```
